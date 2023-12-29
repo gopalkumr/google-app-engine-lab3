@@ -1,0 +1,21 @@
+runtime: python38
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /images
+  static_dir: images
+
+- url: /js
+  static_dir: js
+
+- url: /(.*\.(gif|png|jpg|ico|txt|js|css|woff|woff2|svg|eot|ttf|otf|pdf))
+  static_files: \1
+  upload: (.*\.(gif|png|jpg|ico|txt|js|css|woff|woff2|svg|eot|ttf|otf|pdf))
+
+- url: /.*
+  script: auto
