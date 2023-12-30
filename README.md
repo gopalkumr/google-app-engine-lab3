@@ -5,3 +5,12 @@
   gcloud app deploy  #to deploy the app
 
 ```
+# set execution permission in windows terminal
+
+```
+  
+
+  
+Set-ExecutionPolicy Bypass -Scope Process
+
+```
