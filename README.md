@@ -9,7 +9,7 @@
 
 ```
   
-
+Set-ExecutionPolicy RemoteSigned -Scope LocalMachine
   
 Set-ExecutionPolicy Bypass -Scope Process
 
